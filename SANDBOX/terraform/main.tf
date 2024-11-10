@@ -1,5 +1,5 @@
 resource "aws_budgets_budget" "total_cost" {
-  name              = "budget-total-monthly"
+  name              = "budget-total-monthly-test"
   budget_type       = "COST"
   limit_amount      = "100"
   limit_unit        = "USD"
